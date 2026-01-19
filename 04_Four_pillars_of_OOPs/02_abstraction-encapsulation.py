@@ -1,3 +1,8 @@
+# Abstraction:
+'''Abstraction is the process of hiding internal implementation details and showing only essential features to the user.'''
+
+# Encapsulation:
+'''Wrapping data and Functions into a single unit (object).'''
 class Car:
 
     def __init__(self):

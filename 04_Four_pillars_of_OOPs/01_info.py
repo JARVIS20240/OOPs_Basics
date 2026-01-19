@@ -17,3 +17,6 @@
 
 # Encapsulation:
 '''Wrapping data and Functions into a single unit (object).'''
+
+# Inheritance :
+'''one class uses the properties and methods of another class.'''
