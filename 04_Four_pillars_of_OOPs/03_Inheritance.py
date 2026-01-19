@@ -17,7 +17,7 @@ class child :
 
 ch1 = child("jhon")
 print(ch1.name)
-# print(ch1.hello()) #This Gives Error Bec... 
+# print(ch1.hello()) #This Gives Error Bec... ch1 has no attribute name hello()
 
 # With Inheritance:
 class Cars: # Parent Class
