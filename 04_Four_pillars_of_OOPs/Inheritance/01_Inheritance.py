@@ -3,6 +3,7 @@
 
 # Without Inheritance:
 class parent:
+    
     @staticmethod
     def hello():
         print("Hello.!")
@@ -21,6 +22,7 @@ print(ch1.name)
 
 # With Inheritance:
 class Cars: # Parent Class
+    color = "blue"
     @staticmethod
     def start():
         return "Car Started..."
@@ -37,5 +39,6 @@ car1 = ToyotaCar("Fortuner")
 car2 = ToyotaCar("Prius")
 
 print(car1.name)
+print(car1.color)
 print(car1.start()) #If there is No inheritance we do there is an error
 print(car1.stop())
