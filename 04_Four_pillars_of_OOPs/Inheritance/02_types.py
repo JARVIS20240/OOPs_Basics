@@ -34,3 +34,15 @@ class child(parent) :
 ch1 = child("jhon")
 print(ch1.name)
 print(ch1.hello(),ch1.welcome()) #This Gives Error Bec... ch1 has no attribute name hello()
+
+# Scenario: A Car is a type of Vehicle.
+
+class Vehical:
+    def move(self):
+        return "Vehical Move...."
+
+class Car(Vehical):
+    pass
+
+car1 = Car()
+print(car1.move())

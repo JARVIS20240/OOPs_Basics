@@ -36,3 +36,21 @@ car1 = Fortuner("diesel")
 print(car1.type)
 print(car1.start())
 print(car1.stop())
+
+# Scenario: A CollegeStudent is a Student, and a Student is a Person.
+class Person:
+    def info(self):
+        return "I am a Person."
+
+class Student(Person):
+    def study(self):
+        return "I am a Student."
+
+class CollageStudent(Student):
+    def collage(self):
+        return "I study in Collage."
+    
+std1 = CollageStudent()
+print(std1.info())
+print(std1.study())
+print(std1.collage())
