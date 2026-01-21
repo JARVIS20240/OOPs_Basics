@@ -5,13 +5,13 @@ class Student:
         self.phy = phy
         self.chem = chem
 
-    # def cal_percentage(self):
-    #     self.percentage = str((self.math + self.chem + self.phy)/3) + "%"
-    @property
+    @property #Use Method Like Objcet/instance Property 
     def percentage(self):
         return str((self.math + self.chem + self.phy)/3) + "%"
 
 s1 = Student(70,80,90)
+
+print(s1.percentage)
 
 # marks change
 s1.math = 80
