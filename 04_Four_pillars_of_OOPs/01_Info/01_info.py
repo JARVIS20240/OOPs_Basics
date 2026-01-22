@@ -20,3 +20,6 @@
 
 # Inheritance :
 '''one class uses the properties and methods of another class.'''
+
+# Polymorphism:
+"""Polymorphism: Operator Overloading > When the same operator is allowed to have different meaning according to the context."""
