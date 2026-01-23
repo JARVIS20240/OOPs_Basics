@@ -17,5 +17,8 @@ class Student:
         return self.marks
 
 s1 = Student("karan", 80)
-s1.welcome()
+s1.welcome() #---
+#               | 2nd method 
+#               v
+# Student.welcome(s1) 
 print(s1.get_marks())
