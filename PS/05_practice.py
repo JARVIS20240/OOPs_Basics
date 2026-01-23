@@ -8,36 +8,36 @@
 """
 
 # Problame: 01
-# class Programmer:
-#     Company = "Microsist"
+class Programmer:
+    Company = "Microsist"
 
-#     def __init__(self, name, roal, language, salary):
-#         self.name = name
-#         self.language = language
-#         self.salary = salary
-#         self.roal = roal
-#         return print(f"{self.Company} Programmer Name: {self.name} Good at {self.language} Language, working at {self.roal} at {self.salary} Salary. ")
+    def __init__(self, name, roal, language, salary):
+        self.name = name
+        self.language = language
+        self.salary = salary
+        self.roal = roal
+        return print(f"{self.Company} Programmer Name: {self.name} Good at {self.language} Language, working at {self.roal} at {self.salary} Salary. ")
 
-# emp1 = Programmer("Karan", "AI/Ml Developer", "Python", 1500000)
+emp1 = Programmer("Karan", "AI/Ml Developer", "Python", 1500000)
 
 # Problame: 02
-# class Calculator:
-#     def __init__(self, num):
-#         self.num = num
+class Calculator:
+    def __init__(self, num):
+        self.num = num
     
-#     def square(self):
-#         return print(f"Square is {self.num ** 2}")
+    def square(self):
+        return print(f"Square is {self.num ** 2}")
 
-#     def quabe(self):
-#         return print(f"Quabe is {self.num ** 3}")
+    def quabe(self):
+        return print(f"Quabe is {self.num ** 3}")
     
-#     def square_root(self):#*1/2
-#         return print(f"Square root is {self.num ** 0.5}")
+    def square_root(self):#*1/2
+        return print(f"Square root is {self.num ** 0.5}")
 
-# num1= Calculator(4)
-# num1.square()
-# num1.quabe()
-# num1.square_root()
+num1= Calculator(4)
+num1.square()
+num1.quabe()
+num1.square_root()
 
 # Problame: 03
 class data:
