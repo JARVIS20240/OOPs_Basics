@@ -1,4 +1,5 @@
 """
+Practice: 
 1. Create a Class “Programmer” for storing information is few programmers
     working at Microsist.
 2. Write a class “calculator” capable is finding square, cube and square root is a
